@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/spree/spree.git
-  revision: 98ac730d10b4fd2d60dbf71d42978d744cfd0512
+  revision: 3c5ff8a469cc1f468303c86b7da23af7c09aed02
   branch: 2-1-stable
   specs:
     spree (2.1.3.beta)
@@ -23,18 +23,18 @@ GIT
     spree_cmd (2.1.3.beta)
       thor (~> 0.14)
     spree_core (2.1.3.beta)
-      activemerchant (= 1.39.2)
+      activemerchant (= 1.40.0)
       acts_as_list (= 0.2.0)
       awesome_nested_set (~> 3.0.0.rc.2)
       aws-sdk (= 1.11.1)
       cancan (~> 1.6.10)
       deface (~> 1.0.0)
       ffaker (~> 1.16)
-      highline (= 1.6.18)
+      highline (~> 1.6.18)
       httparty (~> 0.11)
       json (~> 1.7)
       kaminari (~> 0.14.1)
-      money (~> 5.1.1)
+      money (>= 5.1.1)
       paperclip (~> 3.4.1)
       paranoia (~> 2.0)
       rails (~> 4.0.0)
@@ -53,7 +53,7 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_auth_devise.git
-  revision: 8cd2b2d8e634dd17dd5e092880ad9165a7299f85
+  revision: 586c93b5f6ba3dffd50d30f88ffab9090ea893b0
   branch: 2-1-stable
   specs:
     spree_auth_devise (2.1.0)
@@ -67,11 +67,11 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    actionmailer (4.0.0)
-      actionpack (= 4.0.0)
-      mail (~> 2.5.3)
-    actionpack (4.0.0)
-      activesupport (= 4.0.0)
+    actionmailer (4.0.1)
+      actionpack (= 4.0.1)
+      mail (~> 2.5.4)
+    actionpack (4.0.1)
+      activesupport (= 4.0.1)
       builder (~> 3.1.0)
       erubis (~> 2.7.0)
       rack (~> 1.5.2)
@@ -79,7 +79,7 @@ GEM
     active_utils (2.0.1)
       activesupport (>= 2.3.11)
       i18n
-    activemerchant (1.39.2)
+    activemerchant (1.40.0)
       active_utils (~> 2.0, >= 2.0.1)
       activesupport (>= 2.3.14, < 5.0.0)
       builder (>= 2.1.2, < 4.0.0)
@@ -87,16 +87,16 @@ GEM
       json (~> 1.7)
       money (< 6.0.0)
       nokogiri (~> 1.4)
-    activemodel (4.0.0)
-      activesupport (= 4.0.0)
+    activemodel (4.0.1)
+      activesupport (= 4.0.1)
       builder (~> 3.1.0)
-    activerecord (4.0.0)
-      activemodel (= 4.0.0)
+    activerecord (4.0.1)
+      activemodel (= 4.0.1)
       activerecord-deprecated_finders (~> 1.0.2)
-      activesupport (= 4.0.0)
+      activesupport (= 4.0.1)
       arel (~> 4.0.0)
     activerecord-deprecated_finders (1.0.3)
-    activesupport (4.0.0)
+    activesupport (4.0.1)
       i18n (~> 0.6, >= 0.6.4)
       minitest (~> 4.2)
       multi_json (~> 1.3)
@@ -104,7 +104,7 @@ GEM
       tzinfo (~> 0.3.37)
     acts_as_list (0.2.0)
       activerecord (>= 3.0)
-    arel (4.0.0)
+    arel (4.0.1)
     atomic (1.1.14)
     awesome_nested_set (3.0.0.rc.2)
       activerecord (~> 4.0.0)
@@ -125,7 +125,7 @@ GEM
       xpath (~> 2.0)
     climate_control (0.0.3)
       activesupport (>= 3.0)
-    cocaine (0.5.2)
+    cocaine (0.5.3)
       climate_control (>= 0.0.3, < 1.0)
     coffee-rails (4.0.0)
       coffee-script (>= 2.2.0)
@@ -155,8 +155,8 @@ GEM
     diff-lcs (1.2.4)
     erubis (2.7.0)
     execjs (2.0.1)
-    ffaker (1.19.0)
-    highline (1.6.18)
+    ffaker (1.20.0)
+    highline (1.6.20)
     hike (1.2.3)
     httparty (0.12.0)
       json (~> 1.8)
@@ -170,7 +170,7 @@ GEM
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (4.0.5)
       railties (>= 3.1.0)
-    json (1.8.0)
+    json (1.8.1)
     kaminari (0.14.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
@@ -178,7 +178,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25)
-    mini_portile (0.5.1)
+    mini_portile (0.5.2)
     minitest (4.7.5)
     money (5.1.1)
       i18n (~> 0.6.0)
@@ -193,7 +193,7 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.0)
       mime-types
-    paranoia (2.0.0)
+    paranoia (2.0.1)
       activerecord (~> 4.0)
     pg (0.17.0)
     polyamorous (0.6.4)
@@ -204,17 +204,17 @@ GEM
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
-    rails (4.0.0)
-      actionmailer (= 4.0.0)
-      actionpack (= 4.0.0)
-      activerecord (= 4.0.0)
-      activesupport (= 4.0.0)
+    rails (4.0.1)
+      actionmailer (= 4.0.1)
+      actionpack (= 4.0.1)
+      activerecord (= 4.0.1)
+      activesupport (= 4.0.1)
       bundler (>= 1.3.0, < 2.0)
-      railties (= 4.0.0)
+      railties (= 4.0.1)
       sprockets-rails (~> 2.0.0)
-    railties (4.0.0)
-      actionpack (= 4.0.0)
-      activesupport (= 4.0.0)
+    railties (4.0.1)
+      actionpack (= 4.0.1)
+      activesupport (= 4.0.1)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.1.0)
@@ -257,7 +257,7 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sprockets-rails (2.0.0)
+    sprockets-rails (2.0.1)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
@@ -296,12 +296,12 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
-  coffee-rails (~> 4.0.0)
+  coffee-rails (= 4.0.0)
   coveralls
   jbuilder (~> 1.2)
   jquery-rails
   pg
-  rails (= 4.0.0)
+  rails (= 4.0.1)
   rspec-rails (~> 2.0)
   sass-rails (~> 4.0.0)
   sdoc
